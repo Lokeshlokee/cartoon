@@ -1,0 +1,178 @@
+body{
+    background-image: repeating-linear-gradient(lightgreen,lightpink);
+}
+.face{
+    height: 250px;
+    width: 250px;
+    background-color:black;
+    border-radius:50%;
+    margin-top: 10%;
+    margin-left: 40%;
+    position:absolute;
+
+}
+.face1{
+    height: 250px;
+    width: 250px;
+    background-color:sandybrown;
+    border-radius:50%;
+    margin-top: 10%;
+    position:inherit;
+
+}
+.face :hover{
+    background-color:red;
+    cursor: pointer;
+}
+.leye{
+    height: 50px;
+    width:50px;
+    background-color:black ;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.reye{
+    height: 50px;
+    width:50px;
+    background-color:black ;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+
+
+}
+.lpupil{
+    height: 25px;
+    width:25px;
+    background-color:white;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+.rpupil{
+    height: 25px;
+    width:25px;
+    background-color:white ;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+.lpupil,.rpupil{
+    animation: updown 4s ease-in-out infinite;;
+}
+@keyframes updown{
+    0%{
+        transform:translateY(-10px);
+
+    }
+    50%{
+        transform:translateY(10px);
+
+    }
+    100%{
+        transform:translateY(-10px);
+    }
+}
+.nose{
+    height: 40px;
+    width:70px;
+    background-color:rgb(106, 48, 48) ;
+    position:absolute;
+    border-radius: 40%;
+    margin-left: 90px;
+    margin-top: 170px;
+
+}
+
+.lnose{
+    height: 20px;
+    width:44px;
+    background-color:rgb(248, 241, 241) ;
+    position:absolute;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.mouth{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: brown;
+    position:absolute;
+    margin-left: 105px;
+    margin-top: 110px;
+
+
+}
+.lear{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: sandybrown;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.rear{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: sandybrown;
+    border-radius: 50%;
+    margin-left:200px;
+}
+.lear1{
+    height:20px;
+    width:20px;
+    position: absolute;
+    background-color: blue;
+    border-radius:50%;
+    margin-left: 50%;
+    margin-top: 40%;
+    margin-bottom:0%;
+}
+.rear1{
+    height:20px;
+    width:20px;
+    position: absolute;
+    background-color: blue;
+    border-radius:50%;
+    margin-left: 14%;
+    margin-top: 38%;
+    margin-bottom:0%;
+}
+.bod{
+    height:300px;
+    width: 300px;
+    border-radius: 50mm;
+    position: inherit;
+    border-radius: 50%;
+    background-color:sandybrown ;
+    margin-top: 230px;
+    margin-right: 100px;
+}
+.bod1{
+    height: 250px;
+    width:250px;
+    position: absolute;
+    background-color: brown;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: double;
+
+}
+.heading{
+      margin-top: 50px;
+
+}
+
+
